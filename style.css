@@ -1,0 +1,98 @@
+:root{
+    --primary-bg: #18453b;
+    --primary-text: white;
+    --secondary-bg: #FFFFFF;
+    --accent: #8CBF3F;
+    --standard-gap: 40px;
+
+}
+header img{
+    width: 100px;
+    height: 100px;
+}
+
+header {
+    text-align: center;
+}
+main h1{
+    font-size: 40px;
+    text-align: center;
+}
+main a{
+    font-style: italic;
+}
+body {
+    font-family: sans-serif;
+    background: var(--primary-bg);
+    color: var(--primary-text)
+}
+
+body img{
+    width: 400px;
+    height: 400px; 
+    object-fit: contain;
+}
+
+#Projects article {
+    margin: var(--standard-gap);
+    background: white;
+    color: black;
+    padding: 30px;
+    border-radius: 15px;
+}
+#Projects img{
+    width: 400px;
+    height: 400px; 
+    object-fit: contain;
+}
+#Projects{
+    text-align: center;
+}
+#Projects h3{
+    font-size: 40px;
+}
+#Projects p{
+    font-size: 20px;
+}
+
+nav{
+    background: var(--secondary-bg);
+    color: var(--primary-bg);
+    padding: 15px;
+}
+.wayfinder{
+    text-align: left;
+    background: var(--accent);
+    padding: 0px;
+
+}
+#About{
+    margin: var(--standard-gap);
+    background: white;
+    color: black;
+    padding: 30px;
+    border-radius: 15px;
+}
+#menu{
+    background: var(--secondary-bg) ;
+}
+footer{
+    margin: var(--standard-gap);
+    background: white;
+    color: black;
+    padding: 30px;
+}
+footer p{
+    font-weight: bold;
+}
+#Contact{
+    margin: var(--standard-gap);
+    background: white;
+    color: black;
+    padding: 30px;
+    border-radius: 15px;
+}
+#Contact p{
+    font-style: italic;
+}
+
