@@ -184,6 +184,7 @@ nav a{
     text-decoration: none;
     font-weight: bold;
     display: block;
+    padding: 10px;
 }
 nav ul{
     display: flex;
@@ -212,6 +213,7 @@ footer{
     background: white;
     color: black;
     padding: 30px;
+    border-radius: 15px;
 }
 footer p{
     font-weight: bold;
