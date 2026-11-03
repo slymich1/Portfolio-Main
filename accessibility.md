@@ -1,0 +1,1 @@
+For my accessibility score to be 100, I had to add 10px padding to my nav a in order for the touch target points to have suffeicient size and spacing. 
