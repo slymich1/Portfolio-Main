@@ -2,9 +2,16 @@
     --primary-bg: #18453b;
     --primary-text: white;
     --secondary-bg: #FFFFFF;
+    --secondary-text: black;
     --accent: #8CBF3F;
     --standard-gap: 40px;
-
+}
+.dark-mode{
+    --primary-bg: #000000;
+    --primary-text: white;
+    --secondary-bg: grey;
+    --secondary-text: white;
+    --accent: grey;
 }
 body img{
     width: 400px;
@@ -75,8 +82,8 @@ body {
 }
 #Projects article {
     margin: var(--standard-gap);
-    background: white;
-    color: black;
+    background: var(--secondary-bg);
+    color: var(--secondary-text);
     padding: 30px;
     border-radius: 15px;
 }
@@ -122,8 +129,8 @@ Make my projects wrapped and to fit the screen when I make the screen smaller. D
 }
 #WorkExperience article {
     margin: var(--standard-gap);
-    background: white;
-    color: black;
+    background: var(--secondary-bg);
+    color: var(--secondary-text);
     padding: 30px;
     border-radius: 15px;
 }
@@ -199,8 +206,8 @@ nav li{
 }
 #About{
     margin: var(--standard-gap);
-    background: white;
-    color: black;
+    background: var(--secondary-bg);
+    color: var(--secondary-text);
     padding: 30px;
     border-radius: 15px;
 }
@@ -210,8 +217,8 @@ nav li{
 footer{
     margin: var(--standard-gap);
     text-align: center;
-    background: white;
-    color: black;
+    background: var(--secondary-bg);
+    color: var(--secondary-text);
     padding: 30px;
     border-radius: 15px;
 }
@@ -232,8 +239,8 @@ How would I make the contact white background be bigger than fit content but not
     width:min(90%, 700px);
     margin: var(--standard-gap) auto;
     box-sizing: border-box;
-    background: white;
-    color: black;
+    background: var(--secondary-bg);
+    color: var(--secondary-text);
     padding: 30px;
     border-radius: 15px;
 }
